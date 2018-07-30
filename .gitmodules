@@ -1,0 +1,3 @@
+[submodule "log_module"]
+	path = log_module
+	url = ssh://git@stash.silabs.com/~zhfu/log_module.git
