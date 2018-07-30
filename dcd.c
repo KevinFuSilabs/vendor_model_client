@@ -22,13 +22,13 @@ const uint8_t __mesh_dcd[] = {
         0x04, /* Number of SIG Models = 0x04 */
         0x01, /* Number of Vendor Models = 0x01 */
         /* Begin SIG Models */
+        0x00, 0x00, /* Configuration Server */
         0x02, 0x00, /* Health Server */
         0x00, 0x10, /* Generic OnOff Server */
-        0x00, 0x00, /* Configuration Server */
         0x03, 0x00, /* Health Client */
         /* End SIG Models */
         /* Begin Vendor Models */
-        0x22, 0x22, 0x11, 0x11, /* My Model Client */
+        0x11, 0x11, 0x22, 0x22, /* My Model Client */
         /* End Vendor Models */
     /* End Primary Element */
 };

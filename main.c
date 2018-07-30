@@ -40,6 +40,7 @@
 #include "bspconfig.h"
 #endif
 
+#include "app.h"
 /***********************************************************************************************//**
  * @addtogroup Application
  * @{
@@ -112,6 +113,7 @@ int main()
   gecko_bgapi_class_flash_init();
   gecko_bgapi_class_test_init();
   gecko_bgapi_class_sm_init();
+  gecko_bgapi_class_mesh_vendor_model_init();
   mesh_native_bgapi_init();
   gecko_initCoexHAL();
 

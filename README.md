@@ -1,3 +1,5 @@
+Tested SDK: Bluetooth Mesh 1.3.0
+
 Vendor ID: 0x1111
 
 Models
@@ -28,7 +30,7 @@ Operations
   - Press PB1 to send "Unit Status" update
  - Client
   - Press PB0 to send "Temperature Get"
-  - Long press PB to send "Update Period Set Unacknowledged" with sequent parameters as below
+  - Long press PB0 to send "Update Period Set Unacknowledged" with sequent parameters as below
 	- 300ms
 	- Off
 	- 2s

@@ -13,17 +13,17 @@
         "NumS": "4",
         "NumV": "1",
         "SIG Models": [
+          "0",
+          "Configuration Server",
           "2",
           "Health Server",
           "1000",
           "Generic OnOff Server",
-          "0",
-          "Configuration Server",
           "3",
           "Health Client"]
         ,
         "Vendor Models": [
-          "0x11112222",
+          "0x22221111",
           "My Model Client"]
         
       }]
