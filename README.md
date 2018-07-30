@@ -20,9 +20,9 @@ Messages
  - 0x5 - Unit Set Unacknowledged
  - 0x6 - Unit Status
  - 0x7 - Update Period Get
- - 0x7 - Update Period Set
- - 0x7 - Update Period Set Unacknowledged
- - 0x7 - Update Period Status
+ - 0x8 - Update Period Set
+ - 0x9 - Update Period Set Unacknowledged
+ - 0xA - Update Period Status
  
 Operations
  - Server
